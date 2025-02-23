@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <!-- CSS dosyasını doğru şekilde ekleyelim -->
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+
+<div class="welcome-page">
+    <h1>Welcome to the Restaurant</h1>
+    <button id="goToMenu1">Go to Menu</button>
+</div>
+
+<div class="menu-page" style="display: none; opacity: 0;">
+    <div class="categories" id="categories">
+        <button class="category-btn"; id="goBackToMain" class="go-back-btn">←</button>
+        <button class="category-btn" id="grillsBtn">Grills</button>
+        <button class="category-btn" id="appetizersBtn">Appetizers</button>
+        <button class="category-btn" id="soupsBtn">Soups</button>
+        <button class="category-btn" id="dessertsBtn">Desserts</button>
+        <button class="category-btn" id="drinksBtn">Drinks</button>
+    </div>
+    
+    <div id="categoryList" class="category-list"></div>
+
+    <!-- Geri git butonu -->
+    <button id="goToBack" class="go-back-btn" style="display: none;">←</button>
+</div>
+
+
+
+<!-- JavaScript dosyasını doğru şekilde ekleyelim -->
+<script src="assets/script.js"></script>
+</body>
+</html>
