@@ -13,6 +13,46 @@ body {
     transition: all 0.3s ease;
 }
 
+/* Modal Stili */
+.photo-modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 60px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    max-width: 80%;
+    max-height: 80%;
+}
+
+.close-btn {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.close-btn:hover,
+.close-btn:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
 /* Home Page Styles */
 .welcome-page {
     height: 100vh;
@@ -48,37 +88,50 @@ body {
 }
 
 button {
-    background-color: #4CAF50;
+    background-color: #f17d3c; /* Oranj tonlarında, iştah açıcı renk */
     color: white;
-    padding: 10px 20px;
+    padding: 12px 24px;
     border: none;
-    font-size: 16px;
+    font-size: 18px;
     cursor: pointer;
     margin-top: 20px;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
+    border-radius: 8px;
+    transition: all 0.3s ease;
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #f25f3d; /* Hover rengi daha sıcak kırmızıya yakın */
+    transform: scale(1.1); /* Hoverda buton biraz büyür */
 }
 
 /* Go to Back button styles */
 .go-back-btn {
-    background-color: #f56d6d;
+    background-color: #f17d3c; /* Hafif kırmızımsı bir ton */
     color: white;
-    padding: 10px 20px;
+    padding: 12px 24px;
     border: none;
-    font-size: 16px;
+    font-size: 18px;
     cursor: pointer;
     margin-top: 20px;
-    border-radius: 5px;
+    border-radius: 8px;
     display: none;
+    transition: all 0.3s ease;
 }
 
 .go-back-btn:hover {
-    background-color: #e15555;
+    background-color: #f25f3d; /* Hoverda kırmızı rengi */
+    transform: scale(1.1); /* Hoverda buton biraz büyür */
 }
+
+/* Ramazan Menüsü butonunun stili (diğerleriyle aynı, yalnızca rengi farklı) */
+#ramadanMenuBtn {
+    background-color: #f1c40f; /* Altın sarısı tonunda bir renk */
+}
+
+#ramadanMenuBtn:hover {
+    background-color: #f39c12; /* Hoverda daha koyu bir altın rengi */
+}
+
 
 /* Menu Page */
 .menu-page {
@@ -99,20 +152,20 @@ button:hover {
 }
 
 .category-btn {
-    background-color: #f56d6d;
+    background-color: #f17d3c; /* Oranj tonlarında, iştah açıcı renk */
     color: white;
-    padding: 10px 20px;
-    font-size: 16px;
+    padding: 12px 24px;
+    font-size: 18px;
     border: none;
     cursor: pointer;
-    border-radius: 5px;
-    transition: transform 0.3s ease;
+    border-radius: 8px;
+    transition: all 0.3s ease;
     margin-bottom: 10px;
 }
 
 .category-btn:hover {
-    background-color: #e15555;
-    transform: scale(1.1);
+    background-color: #f25f3d; /* Hoverda kırmızımsı sıcak ton */
+    transform: scale(1.1); /* Hoverda buton biraz büyür */
 }
 
 /* Menu item styling */
@@ -137,14 +190,15 @@ button:hover {
 }
 
 .menu-item img {
-    max-width: 100px;
+    max-width: 120px; /* Resim boyutunu biraz daha büyütelim */
     height: auto;
     border-radius: 8px;
 }
 
 .menu-item p {
     margin: 10px 0;
-    font-size: 18px;
+    font-size: 20px; /* Menü öğeleri için yazı boyutunu büyütüyoruz */
+    color: #f4f4f9; /* Yazı rengi daha açık ve okunabilir */
 }
 
 /* Animasyonlar */
@@ -243,7 +297,6 @@ a[href]:hover {
     transform: scale(1.2);
     opacity: 1;
 }
-
 
 /* Mobil uyumlu tasarım */
 @media (max-width: 768px) {
