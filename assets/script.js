@@ -18,7 +18,7 @@ const menuData = {
             name: "Antrikot", 
             price: "400 TL", 
             image: "assets/images/antrikot.png", 
-            description: "antrikot, yeşillik, közlenmiş yeşil biber, soğan, közlenmiş patates ve lavaş ile birlikte servis edilir"
+            description: "yeşillik, közlenmiş yeşil biber, soğan, közlenmiş patates ve lavaş ile birlikte servis edilir"
         },
         { 
             name: "Adana Kebap Porsiyon", 
