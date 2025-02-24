@@ -88,7 +88,7 @@ body {
 }
 
 button {
-    background-color: #f17d3c; /* Oranj tonlarında, iştah açıcı renk */
+    background-color: #f1b83c; /* Oranj tonlarında, iştah açıcı renk */
     color: white;
     padding: 12px 24px;
     border: none;
@@ -100,13 +100,13 @@ button {
 }
 
 button:hover {
-    background-color: #f25f3d; /* Hover rengi daha sıcak kırmızıya yakın */
+    background-color: #d49d05; /* Hover rengi daha sıcak kırmızıya yakın */
     transform: scale(1.1); /* Hoverda buton biraz büyür */
 }
 
 /* Go to Back button styles */
 .go-back-btn {
-    background-color: #f17d3c; /* Hafif kırmızımsı bir ton */
+    background-color: #f1b83c; /* Hafif kırmızımsı bir ton */
     color: white;
     padding: 12px 24px;
     border: none;
@@ -119,13 +119,13 @@ button:hover {
 }
 
 .go-back-btn:hover {
-    background-color: #f25f3d; /* Hoverda kırmızı rengi */
+    background-color: #d49d05; /* Hoverda kırmızı rengi */
     transform: scale(1.1); /* Hoverda buton biraz büyür */
 }
 
 /* Ramazan Menüsü butonunun stili (diğerleriyle aynı, yalnızca rengi farklı) */
 #ramadanMenuBtn {
-    background-color: #f1c40f; /* Altın sarısı tonunda bir renk */
+    background-color: #0f9ef1; /* Altın sarısı tonunda bir renk */
 }
 
 #ramadanMenuBtn:hover {
@@ -152,7 +152,7 @@ button:hover {
 }
 
 .category-btn {
-    background-color: #f17d3c; /* Oranj tonlarında, iştah açıcı renk */
+    background-color: #d49d05; /* Oranj tonlarında, iştah açıcı renk */
     color: white;
     padding: 12px 24px;
     font-size: 18px;
@@ -164,7 +164,7 @@ button:hover {
 }
 
 .category-btn:hover {
-    background-color: #f25f3d; /* Hoverda kırmızımsı sıcak ton */
+    background-color: #f1b83c; /* Hoverda kırmızımsı sıcak ton */
     transform: scale(1.1); /* Hoverda buton biraz büyür */
 }
 
