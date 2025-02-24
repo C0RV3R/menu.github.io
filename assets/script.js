@@ -31,10 +31,11 @@ const menuData = {
         { name: "Kunefe", price: "70 TL", image: "dessert2.jpg" }
     ],
     drinks: [
-        { name: "Water", price: "5 TL", image: "drink1.jpg" },
-        { name: "Coke", price: "20 TL", image: "drink2.jpg" },
-        { name: "Ayran", price: "20 TL", image: "drink2.jpg" },
-        { name: "Tea", price: "20 TL", image: "drink2.jpg" }
+        { name: "Ayran", price: "50 TL", image: "assets/images/ayran.png" },
+        { name: "Coke", price: "60 TL", image: "assets/images/kola.png" },
+        { name: "Şalgam (Turnip)", price: "40 TL", image: "assets/images/salgam.png" },
+        { name: "Sherbet", price: "40 TL", image: "assets/images/serbet.png" },
+        { name: "Mineral Water", price: "40 TL", image: "assets/images/soda.png" }
     ]
 };
 
