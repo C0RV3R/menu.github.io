@@ -89,7 +89,7 @@ const menuData = {
     ],
     desserts: [
         { 
-            name: "Sabri'nin Künefesi", 
+            name: "Kaburgacı Sabri'nin Künefesi", 
             price: "140 TL", 
             image: "assets/images/kunefe.png", 
             description: "kaburgacı sabri'nin özel sosuyla servis edilir."
