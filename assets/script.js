@@ -16,76 +16,88 @@ const menuData = {
     grills: [
         { 
             name: "Antrikot", 
-            price: "200 TL", 
+            price: "400 TL", 
             image: "assets/images/antrikot.png", 
-            description: "içindekiler: antrikot, yeşillik, közlenmiş yeşil biber, soğan, közlenmiş patates ve lavaş."
+            description: "antrikot, yeşillik, közlenmiş yeşil biber, soğan, közlenmiş patates ve lavaş ile birlikte servis edilir"
         },
         { 
-            name: "Kebap", 
+            name: "Adana Kebap Porsiyon", 
             price: "240 TL", 
             image: "grill2.jpg", 
-            description: ""
+            description: "lavaş, soğan, közlenmiş yeşil biber ve közlenmiş domates ile birlikte servis edilir"
+        },
+        { 
+            name: "Çöp Şiş Porsiyon", 
+            price: "260 TL", 
+            image: "grill2.jpg", 
+            description: "lavaş, soğan, közlenmiş yeşil biber ve közlenmiş domates ile birlikte servis edilir"
+        },
+        { 
+            name: "Kaburga Şiş Porsiyon", 
+            price: "300 TL", 
+            image: "grill2.jpg", 
+            description: "lavaş, soğan, közlenmiş yeşil biber ve közlenmiş domates ile birlikte servis edilir"
         }
     ],
     appetizers: [
         { 
-            name: "Hummus", 
+            name: "Çiğköfte", 
             price: "50 TL", 
-            image: "appetizer1.jpg", 
+            image: "assets/images/cigkofte.png", 
             description: ""
         },
         { 
-            name: "Cacık", 
-            price: "40 TL", 
-            image: "appetizer2.jpg", 
+            name: "Havuç Tarator", 
+            price: "50 TL", 
+            image: "assets/images/tarator.png", 
             description: ""
         }
     ],
     wraps: [
         { 
             name: "Adana Dürüm", 
-            price: "60 TL", 
+            price: "140 TL", 
             image: "dessert1.jpg", 
-            description: ""
+            description: "lavaş içerisinde zırh etinden çekilmiş adana kebap, soğan ve yeşillik."
         },
         { 
             name: "Kaburga şiş Dürüm", 
-            price: "70 TL", 
+            price: "210 TL", 
             image: "dessert2.jpg", 
-            description: ""
+            description: "lavaş içerisinde dana kaburga şiş, soğan ve yeşillik."
         },
         { 
             name: "Çöp şiş Dürüm", 
-            price: "70 TL", 
+            price: "200 TL", 
             image: "dessert2.jpg", 
-            description: ""
+            description: "lavaş içerisinde kuzu çöğ şiş, soğan ve yeşillik."
         }
     ],
     soups: [
         { 
-            name: "Lentil Soup", 
-            price: "30 TL", 
-            image: "soup1.jpg", 
+            name: "Mercimek Çorbası", 
+            price: "80 TL", 
+            image: "assets/images/mercimek.png", 
             description: ""
         },
         { 
-            name: "Tomato Soup", 
-            price: "35 TL", 
-            image: "soup2.jpg", 
+            name: "Ezogelin Çorbası", 
+            price: "80 TL", 
+            image: "assets/images/ezogelin.png", 
             description: ""
         }
     ],
     desserts: [
         { 
-            name: "Baklava", 
-            price: "60 TL", 
-            image: "dessert1.jpg", 
-            description: ""
+            name: "Sabri'nin Künefesi", 
+            price: "140 TL", 
+            image: "assets/images/kunefe.png", 
+            description: "kaburgacı sabri'nin özel sosuyla servis edilir."
         },
         { 
-            name: "Kunefe", 
-            price: "70 TL", 
-            image: "dessert2.jpg", 
+            name: "Güllaç", 
+            price: "120 TL", 
+            image: "assets/images/gullac.png", 
             description: ""
         }
     ],
